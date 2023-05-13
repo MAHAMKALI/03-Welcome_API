@@ -21,7 +21,7 @@ spec:
             - name: PORT
               value: "8081"
             - name: jhooq-springboot
-              value: ad29d6dae581c48668cde703ec2d3167-471661105.eu-central-1.elb.amazonaws.com
+              value: http://ad29d6dae581c48668cde703ec2d3167-471661105.eu-central-1.elb.amazonaws.com
 ---
 apiVersion: v1
 kind: Service
