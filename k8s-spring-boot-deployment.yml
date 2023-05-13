@@ -20,6 +20,8 @@ spec:
           env:
             - name: PORT
               value: "8081"
+            - name: MICROSERVICE_REGISTRY_URL
+              value: "http://jhooq-springboot:8761/eureka/"
 ---
 apiVersion: v1
 kind: Service
