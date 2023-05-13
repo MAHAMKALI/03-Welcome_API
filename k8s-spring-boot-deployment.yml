@@ -20,7 +20,7 @@ spec:
           env:
             - name: PORT
               value: "8081"
-            - name: http://ad29d6dae581c48668cde703ec2d3167-471661105.eu-central-1.elb.amazonaws.com/
+            - name: http://jhooq-springboot:80/eureka
               value: "jhooq-springboot"
 ---
 apiVersion: v1
