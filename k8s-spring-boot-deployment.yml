@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: welcome-api
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: welcome-api
